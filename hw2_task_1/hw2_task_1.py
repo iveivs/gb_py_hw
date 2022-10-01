@@ -3,10 +3,10 @@
 
 n = input('Введите вещественное число: ')
  
-sum = 0
+summa = 0
  
 for i in n:
     if i.isdigit():
-        sum += int(i)
+        summa += int(i)
  
-print("Сумма =", sum)
+print("Сумма =", summa)
