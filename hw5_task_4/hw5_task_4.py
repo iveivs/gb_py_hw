@@ -1,7 +1,7 @@
 # Реализуйте RLE алгоритм: реализуйте модуль сжатия и восстановления данных.
 
 
-numb_list_1 = ['DDDDDS:WWDW DDJDJJJ WDWDWWWWWW']  # создаём 1-й список строк и записываем его в файл 1
+numb_list_1 = ['DDDDDS:WWDW DDJDJJJ WDWDWWWWWW']  # создаём список строк и записываем его в файл 1
 data1 = open('file_hw5_4.txt', 'w')
 data1.writelines(numb_list_1)
 data1.close()
