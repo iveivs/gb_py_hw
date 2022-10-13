@@ -1,12 +1,12 @@
 # Реализуйте RLE алгоритм: реализуйте модуль сжатия и восстановления данных.
 
 
-numb_list_1 = ['DDDDDS:WWDW DDJDJJJ WDWDWWWWWW']  # создаём список строк и записываем его в файл 1
+numb_list_1 = ['DDDDDS:WWDW DDJDJJJ WDWDWWWWWW']  # создаём строку и записываем ее в файл 
 data1 = open('file_hw5_4.txt', 'w')
 data1.writelines(numb_list_1)
 data1.close()
 
-data2 = open('file_hw5_4.txt', 'r')   # распаковываем список 1, переводим его в int и создаём новый список
+data2 = open('file_hw5_4.txt', 'r')   # распаковываем список 
 str_input = data2.readline()
 data2.close()
 
