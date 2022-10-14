@@ -10,4 +10,4 @@ for elem in mod_inp_str:
         new_arr.append(elem)
 
 out_str = ", ".join(new_arr)
-print(f'"{out_str}"')
+print(f'"{out_str}"') 
