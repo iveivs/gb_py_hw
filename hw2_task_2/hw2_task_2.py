@@ -9,4 +9,5 @@ for i in range(1, n+1):
     fctrl = fctrl * i
     out_arr.append(fctrl)
 
-print(out_arr)
+print(out_arr) 
+print(out_arr) 
