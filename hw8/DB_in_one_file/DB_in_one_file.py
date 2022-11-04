@@ -68,10 +68,10 @@ def input_new_data():
 
 def add_new_person():
     try:
-        cursor.executemany('INSERT INTO personal VALUES(?,?,?,?,?,?)', input_new_data())
+        cursor.execute('INSERT INTO personal VALUES(?,?,?,?,?,?)', input_new_data())
         bd.commit()
     except:
-        print('Данные записаны')
+        print('Данные не записаны')
 
     for i in cursor.execute('SELECT * FROM personal'):
         print(*i)
